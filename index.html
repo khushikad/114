@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal sound identification</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Croissant+One&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+<body>
+    <center>
+        <div id="top">
+            <br>
+       <h1>Animal sound identification</h1> 
+       <br>
+       <h4>Note: Produce a sound to make the animals (cat or dog) come up</h4>
+       <br>
+    </div>
+    <br>
+    <button class="btn btn-primary" onclick="startbutton()">START</button>
+    <br>
+    <h2 id="result_label">I can hear - </h2>
+    <h3 id="result_confidence">Accuracy- </h3>
+    <img id="img1" width="300px" height="300px">
+    
+ 
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>
